@@ -1,0 +1,46 @@
+#!/usr/bin/env mkb
+
+# Quick Project
+
+if {{ option use_prebuilt }}
+{
+    subproject "$MARMALADE_ROOT/quick/quick_prebuilt"
+}
+else
+{
+    subproject "$MARMALADE_ROOT/quick/quick"
+}
+
+options
+{
+    s3e-data-dir = resources
+    app-icf = 'resources/common.icf,resources/app.icf'
+    builddir = build_temp
+}
+
+files
+{
+    (resources)
+    app.icf
+    main.lua
+}
+
+assets
+{
+    (resources)
+        .
+}
+
+deployments
+{
+    ["Windows"]
+    win32
+    arch=x86
+
+    ["Mac OS X"]
+    osx
+    arch=x86
+
+    # Ensure subsequent options set on "Default" configuration
+    ["Default"]
+}

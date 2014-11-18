@@ -1,0 +1,13 @@
+[S3E]
+MemMgrMaxAllocWarning=0
+
+{OS=WP8}
+DispFixRot=FixedPortrait
+{OS=WP81}
+DispFixRot=FixedPortrait
+{}
+
+[GL]
+
+[QUICK]
+mainFilename="main.lua"

@@ -1,0 +1,273 @@
+-- START TRACE TO FILE --
+tracing to: ''
+MarmaladeSDK v7.3.2 [393734] (S3E Loader v4.37.0)
+Copyright (C) 2001-2014 Marmalade Technologies Ltd.
+System Info:
+ OS           : WINDOWS (3)
+ OS Version   : Windows 6.2 (6.2)
+ Device ID    : Windows Simulator (0x1)
+ Device Class : WINDOWS_GENERIC (3000)
+ Phone Number : 0044123456789
+ Unique ID    : SIMULATOR_ID
+ Device Name  : My Computer
+ Memory       : 1048576KiB
+27/08/14 19:13:43.253: [0x330] DEVICE: Initialising FIBRE
+27/08/14 19:13:43.255: [0x330] DEVICE: Initialising THREAD
+27/08/14 19:13:43.258: [0x330] THREAD: s3eThreadCreateMain
+27/08/14 19:13:43.260: [0xfa0] DEVICE: Initialising SURFACE
+27/08/14 19:13:43.262: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
+27/08/14 19:13:43.264: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+27/08/14 19:13:43.266: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+27/08/14 19:13:43.268: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
+27/08/14 19:13:43.270: [0xfa0] DEVICE: Initialising EXT
+27/08/14 19:13:43.272: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+27/08/14 19:13:43.274: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+27/08/14 19:13:43.276: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
+27/08/14 19:13:43.278: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+27/08/14 19:13:43.280: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+27/08/14 19:13:43.282: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+27/08/14 19:13:43.285: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
+27/08/14 19:13:43.287: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
+27/08/14 19:13:43.289: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+27/08/14 19:13:43.291: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+27/08/14 19:13:43.293: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+27/08/14 19:13:43.296: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+27/08/14 19:13:43.298: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+27/08/14 19:13:43.300: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+27/08/14 19:13:43.302: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+27/08/14 19:13:43.304: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+27/08/14 19:13:43.307: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+27/08/14 19:13:43.309: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
+27/08/14 19:13:43.311: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+27/08/14 19:13:43.313: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
+27/08/14 19:13:43.315: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+27/08/14 19:13:43.318: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+27/08/14 19:13:43.320: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+27/08/14 19:13:43.323: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+27/08/14 19:13:43.325: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
+27/08/14 19:13:43.327: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+27/08/14 19:13:43.332: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
+27/08/14 19:13:43.334: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+27/08/14 19:13:43.337: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+27/08/14 19:13:43.339: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+27/08/14 19:13:43.342: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+27/08/14 19:13:43.344: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
+27/08/14 19:13:43.347: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
+27/08/14 19:13:43.349: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
+27/08/14 19:13:43.353: [0xfa0] DEVICE: Initialising CONFIG
+27/08/14 19:13:43.356: [0xfa0] DEVICE: Initialising TIMER
+27/08/14 19:13:43.359: [0xfa0] DEVICE: Initialising COMPRESSION
+27/08/14 19:13:43.361: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+27/08/14 19:13:43.364: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+27/08/14 19:13:43.367: [0xfa0] EXT: initializing extension: s3eWindow
+27/08/14 19:13:43.369: [0xfa0] EXT: initializing extension: s3eWindow 0x5fa9c0a0
+27/08/14 19:13:43.372: [0xfa0] DEVICE: SetupPaths: NULL
+27/08/14 19:13:43.375: [0xfa0] LOADER: ParseCommandLineData [--dll="C:\Marmalade\7.3\quick\target\win\quick_prebuilt_d.s86" --data="C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources" --app-icf1="C:\Users\Dan\Documents\Marmalade_Quick\BlockBatt
+27/08/14 19:13:43.377: [0xfa0] LOADER: setting [commandline]  dll=C:\Marmalade\7.3\quick\target\win\quick_prebuilt_d.s86
+27/08/14 19:13:43.380: [0xfa0] LOADER: setting [commandline]  data=C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources
+27/08/14 19:13:43.382: [0xfa0] LOADER: setting [commandline]  app-icf1=C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources\common.icf
+27/08/14 19:13:43.385: [0xfa0] LOADER: setting [commandline]  app-icf2=C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources\app.icf
+27/08/14 19:13:43.388: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+27/08/14 19:13:43.390: [0xfa0] FILE: fs[00]: system[rom://] 'C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources'
+27/08/14 19:13:43.393: [0xfa0] FILE: fs[03]: system[raw://] ''
+27/08/14 19:13:43.396: [0xfa0] FILE: listed 2 active filesystems
+27/08/14 19:13:43.398: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+27/08/14 19:13:43.401: [0xfa0] FILE: fs[00]: system[rom://] 'C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources'
+27/08/14 19:13:43.403: [0xfa0] FILE: fs[01]: system[ram://] 'C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources-ram'
+27/08/14 19:13:43.406: [0xfa0] FILE: fs[03]: system[raw://] ''
+27/08/14 19:13:43.409: [0xfa0] FILE: listed 3 active filesystems
+27/08/14 19:13:43.422: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+27/08/14 19:13:43.426: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+27/08/14 19:13:43.428: [0xfa0] LOADER: Using data directory C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources as ROM drive
+27/08/14 19:13:43.431: [0xfa0] LOADER: Using directory C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources-ram as RAM drive
+27/08/14 19:13:43.435: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/s3e.icf', 'rb') succeeded, id=1605751880 p=0x5fb5d448
+27/08/14 19:13:43.437: [0xfa0] LOADER: Loading config from: C:\Marmalade\7.3\s3e/s3e.icf
+27/08/14 19:13:43.441: [0xfa0] FILE: s3eFileClose h=0x5fb5d448
+27/08/14 19:13:43.443: [0xfa0] LOADER: Loading app-icf from command line specified location C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources\common.icf
+27/08/14 19:13:43.446: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources\common.icf', 'rb') succeeded, id=1000 p=0x5fb5eb1c
+27/08/14 19:13:43.448: [0xfa0] LOADER: Loading config from: raw://C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources\common.icf
+27/08/14 19:13:43.451: [0xfa0] FILE: s3eFileClose h=0x5fb5eb1c
+27/08/14 19:13:43.454: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources\app.icf', 'rb') succeeded, id=1001 p=0x5fb5ec38
+27/08/14 19:13:43.457: [0xfa0] LOADER: Loading config from: raw://C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources\app.icf
+27/08/14 19:13:43.460: [0xfa0] FILE: s3eFileClose h=0x5fb5ec38
+27/08/14 19:13:43.464: [0xfa0] LOADER: ParseCommandLineData [--dll="C:\Marmalade\7.3\quick\target\win\quick_prebuilt_d.s86" --data="C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources" --app-icf1="C:\Users\Dan\Documents\Marmalade_Quick\BlockBatt
+27/08/14 19:13:43.467: [0xfa0] LOADER: setting [commandline]  dll=C:\Marmalade\7.3\quick\target\win\quick_prebuilt_d.s86
+27/08/14 19:13:43.469: [0xfa0] LOADER: setting [commandline]  data=C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources
+27/08/14 19:13:43.472: [0xfa0] LOADER: setting [commandline]  app-icf1=C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources\common.icf
+27/08/14 19:13:43.475: [0xfa0] LOADER: setting [commandline]  app-icf2=C:\Users\Dan\Documents\Marmalade_Quick\BlockBattle\resources\app.icf
+27/08/14 19:13:43.810: [0xfa0] SPLASH: displaying debug splash-screen
+27/08/14 19:13:43.827: [0xfa0] LICENSE: LicenseType: licText=
+LICENSE marmalade marmaladesdk 1.0 21-aug-2015 uncounted
+  hostid=rehost=c8bd119fe4f792b128c09dd895326ba4de5b6f15
+  options={Type=Free;LicPlat=0x7B8;Splash;Ftrs=Juice;} _ck=dbd6b7d390
+  sig="6
+27/08/14 19:13:43.831: [0xfa0] LICENSE: LicenseType: licenseType size=4
+27/08/14 19:13:43.834: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+27/08/14 19:13:43.853: [0xfa0] LICENSE: SplashScreenRequired: Splash set in licenseText
+27/08/14 19:13:43.856: [0xfa0] SPLASH: No splash screen specified
+27/08/14 19:13:43.890: [0xfa0] LICENSE: LicenseType: licText=
+LICENSE marmalade marmaladesdk 1.0 21-aug-2015 uncounted
+  hostid=rehost=c8bd119fe4f792b128c09dd895326ba4de5b6f15
+  options={Type=Free;LicPlat=0x7B8;Splash;Ftrs=Juice;} _ck=dbd6b7d390
+  sig="6
+27/08/14 19:13:43.894: [0xfa0] LICENSE: LicenseType: licenseType size=4
+27/08/14 19:13:43.896: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+27/08/14 19:13:43.899: [0xfa0] SOCKET: s3eSocketCreate -> p=0x5fc038d4 id=3000
+27/08/14 19:13:43.902: [0xfa0] SOCKET: s3eInetLookup: 'www.google-analytics.com'
+27/08/14 19:13:43.950: [0xfa0] SOCKET: s3eInetLookup (synchronous): done DNS: '64.15.115.93:0'
+27/08/14 19:13:43.954: [0xfa0] SOCKET: s3eSocketConnect: 0x5fc038d4 -> 64.15.115.93:80
+27/08/14 19:13:43.957: [0xfa0] SOCKET: TryConnect error: 10036
+27/08/14 19:13:43.959: [0xfa0] SOCKET: Connect: FAILED (0: )
+27/08/14 19:13:43.994: [0xfa0] SOCKET: TryConnect error: 10056
+27/08/14 19:13:43.997: [0xfa0] SOCKET: NotifyConnect: 3000 0x5fc038d4
+27/08/14 19:13:44.000: [0xfa0] SOCKET: s3eSocketClose: 0x5fc038d4 open=1
+27/08/14 19:13:45.820: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg
+27/08/14 19:13:45.823: [0xfa0] VIDEO: data in in JPG (EXIF) format
+27/08/14 19:13:45.826: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+27/08/14 19:13:45.829: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg
+27/08/14 19:13:45.832: [0xfa0] JPEG: loading jpeg file: raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg [30325]
+27/08/14 19:13:45.835: [0xfa0] JPEG: jpeg head was read: [320x320]
+27/08/14 19:13:45.840: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[20x160], display[(0-320)x(0-320)]
+27/08/14 19:13:45.843: [0xfa0] JPEG: from [320x320] to [320x320]
+27/08/14 19:13:45.859: [0xfa0] VIDEO: s3eVideoPlay done: 0
+27/08/14 19:13:51.833: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg
+27/08/14 19:13:51.836: [0xfa0] VIDEO: data in in JPG (EXIF) format
+27/08/14 19:13:51.841: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+27/08/14 19:13:51.844: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg
+27/08/14 19:13:51.847: [0xfa0] JPEG: loading jpeg file: raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg [37220]
+27/08/14 19:13:51.849: [0xfa0] JPEG: jpeg head was read: [320x320]
+27/08/14 19:13:51.855: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[20x160], display[(0-320)x(0-320)]
+27/08/14 19:13:51.859: [0xfa0] JPEG: from [320x320] to [320x320]
+27/08/14 19:13:51.873: [0xfa0] VIDEO: s3eVideoPlay done: 0
+COCOS2DX LOG: cocos2d: cocos2d-2.1beta3-x-2.1.0
+27/08/14 19:13:55.521: [0xfa0] IW_GL: EGL: eglGetDisplay returned 09222B98
+27/08/14 19:13:55.582: [0xfa0] IW_GL: eglInitialise succeeded - version 1.4
+27/08/14 19:13:55.586: [0xfa0] IW_GL: S3E_EGL_VERSION: 0104
+27/08/14 19:13:55.589: [0xfa0] IW_GL: S3E_GL_VERSION: 0200
+27/08/14 19:13:55.592: [0xfa0] IW_GL: EGL_VENDOR: Google Inc.
+27/08/14 19:13:55.595: [0xfa0] IW_GL: EGL_VERSION: 1.4 (ANGLE 1.0.0.1275)
+27/08/14 19:13:55.598: [0xfa0] IW_GL:     EGL_EXT_create_context_robustness
+27/08/14 19:13:55.601: [0xfa0] IW_GL:     EGL_ANGLE_d3d_share_handle_client_buffer
+27/08/14 19:13:55.604: [0xfa0] IW_GL:     EGL_ANGLE_query_surface_pointer
+27/08/14 19:13:55.607: [0xfa0] IW_GL:     EGL_ANGLE_surface_d3d_texture_2d_share_handle
+27/08/14 19:13:55.610: [0xfa0] IW_GL:     EGL_NV_post_sub_buffer
+27/08/14 19:13:55.613: [0xfa0] GL_CORE: rejecting config 0: EGL_DEPTH_SIZE < 16
+27/08/14 19:13:55.616: [0xfa0] GL_CORE: rejecting config 4: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+27/08/14 19:13:55.618: [0xfa0] GL_CORE: rejecting config 5 RGB < 565
+27/08/14 19:13:55.621: [0xfa0] GL_CORE: rejecting config 6: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+27/08/14 19:13:55.624: [0xfa0] GL_CORE: rejecting config 7 RGB < 565
+27/08/14 19:13:55.627: [0xfa0] GL_CORE: rejecting config 8: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+27/08/14 19:13:55.630: [0xfa0] GL_CORE: rejecting config 9 RGB < 565
+27/08/14 19:13:55.633: [0xfa0] GL_CORE: rejecting config 10: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+27/08/14 19:13:55.636: [0xfa0] GL_CORE: rejecting config 11 RGB < 565
+27/08/14 19:13:55.639: [0xfa0] GL_CORE: rejecting config 12: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+27/08/14 19:13:55.641: [0xfa0] GL_CORE: rejecting config 13: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+27/08/14 19:13:55.644: [0xfa0] GL_CORE: rejecting config 14: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+27/08/14 19:13:55.647: [0xfa0] GL_CORE: rejecting config 15: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+27/08/14 19:13:55.650: [0xfa0] GL_CORE: EGL: Chose EGL_CONFIG_ID 3
+27/08/14 19:13:55.678: [0xfa0] IW_GL: GL_VENDOR: Google Inc.
+27/08/14 19:13:55.682: [0xfa0] IW_GL: GL_RENDERER: ANGLE (ATI Radeon HD 4800 Series (Microsoft Corporation - WDDM v1.1))
+27/08/14 19:13:55.685: [0xfa0] IW_GL: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.1275)
+27/08/14 19:13:55.687: [0xfa0] IW_GL: GL properties reported by driver:
+27/08/14 19:13:55.690: [0xfa0] IW_GL:     GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 20
+27/08/14 19:13:55.693: [0xfa0] IW_GL:     GL_SHADER_COMPILER: 1
+27/08/14 19:13:55.696: [0xfa0] IW_GL:     GL_MAX_VERTEX_ATTRIBS: 16
+27/08/14 19:13:55.699: [0xfa0] IW_GL:     GL_MAX_VERTEX_UNIFORM_VECTORS: 254
+27/08/14 19:13:55.702: [0xfa0] IW_GL:     GL_MAX_VARYING_VECTORS: 10
+27/08/14 19:13:55.705: [0xfa0] IW_GL:     GL_MAX_TEXTURE_IMAGE_UNITS: 16
+27/08/14 19:13:55.708: [0xfa0] IW_GL:     GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS: 4
+27/08/14 19:13:55.711: [0xfa0] IW_GL:     GL_MAX_FRAGMENT_UNIFORM_VECTORS: 221
+27/08/14 19:13:55.714: [0xfa0] IW_GL:     GL_MAX_CUBE_MAP_TEXTURE_SIZE: 8192
+27/08/14 19:13:55.716: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_FORMAT: GL_RGB
+27/08/14 19:13:55.719: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_TYPE: GL_UNSIGNED_SHORT_5_6_5
+27/08/14 19:13:55.722: [0xfa0] IW_GL:     GL_MAX_RENDERBUFFER_SIZE: 8192
+27/08/14 19:13:55.725: [0xfa0] IW_GL:     GL_POINT_SIZE_MAX: -1
+27/08/14 19:13:55.728: [0xfa0] IW_GL:     GL_MAX_TEXTURE_SIZE: 8192
+27/08/14 19:13:55.731: [0xfa0] IW_GL:     GL_MAX_VIEWPORT_DIMS: (8192, 8192)
+27/08/14 19:13:55.734: [0xfa0] IW_GL: Supported GL_EXTENSIONS:
+27/08/14 19:13:55.737: [0xfa0] IW_GL:     GL_OES_packed_depth_stencil
+27/08/14 19:13:55.739: [0xfa0] IW_GL:     GL_OES_element_index_uint
+27/08/14 19:13:55.742: [0xfa0] IW_GL:     GL_OES_texture_half_float_linear
+27/08/14 19:13:55.745: [0xfa0] IW_GL:     GL_NV_fence
+27/08/14 19:13:55.748: [0xfa0] IW_GL:     GL_EXT_read_format_bgra
+27/08/14 19:13:55.751: [0xfa0] IW_GL:     GL_OES_get_program_binary
+27/08/14 19:13:55.753: [0xfa0] IW_GL:     GL_OES_rgb8_rgba8
+27/08/14 19:13:55.756: [0xfa0] IW_GL:     GL_EXT_texture_compression_dxt1
+27/08/14 19:13:55.759: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt3
+27/08/14 19:13:55.762: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt5
+27/08/14 19:13:55.765: [0xfa0] IW_GL:     GL_ARB_texture_env_combine
+27/08/14 19:13:55.767: [0xfa0] IW_GL:     GL_OES_texture_npot
+27/08/14 19:13:55.770: [0xfa0] IW_GL:     GL_EXT_texture_format_BGRA8888
+27/08/14 19:13:55.773: [0xfa0] IW_GL:     GL_OES_texture_half_float
+27/08/14 19:13:55.776: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_multisample
+27/08/14 19:13:55.779: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_blit
+27/08/14 19:13:55.781: [0xfa0] IW_GL:     GL_OES_standard_derivatives
+27/08/14 19:13:55.784: [0xfa0] IW_GL:     GL_OES_texture_float
+27/08/14 19:13:55.787: [0xfa0] IW_GL:     GL_OES_texture_float_linear
+27/08/14 19:13:55.790: [0xfa0] IW_GL:     GL_EXT_texture_filter_anisotropic
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path arial.ttf not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path fonts/arial.ttf not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path fonts/marker felt.ttf not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path arial.ttf not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path fonts/arial.ttf not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path fonts/marker felt.ttf not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path arial.ttf not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path fonts/arial.ttf not found
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path fonts/marker felt.ttf not found
+
+
+QUICKCPP LOG: Marmalade Quick 1.1
+QUICKCPP LOG: Loading app configuration...
+ERROR: S3E_FILE_ERR_NOT_FOUND in s3eFileOpen - Path config.lua not found
+QUICKCPP WARNING: Failed to load config lua file
+QUICKCPP LOG: Loading Quick engine...
+COCOS2DX LOG: cocos2d: GL_VENDOR:     Google Inc.
+COCOS2DX LOG: cocos2d: GL_RENDERER:   ANGLE (ATI Radeon HD 4800 Series (Microsoft Corporation - WDDM v1.1))
+COCOS2DX LOG: cocos2d: GL_VERSION:    OpenGL ES 2.0 (ANGLE 1.0.0.1275)
+COCOS2DX LOG: cocos2d: GL_MAX_TEXTURE_SIZE: 8192
+COCOS2DX LOG: cocos2d: GL_MAX_TEXTURE_UNITS: 20
+COCOS2DX LOG: cocos2d: GL supports PVRTC: NO
+COCOS2DX LOG: cocos2d: GL supports BGRA8888 textures: NO
+COCOS2DX LOG: cocos2d: GL supports NPOT textures: YES
+COCOS2DX LOG: cocos2d: GL supports discard_framebuffer: NO
+COCOS2DX LOG: cocos2d: GL supports shareable VAO: NO
+COCOS2DX LOG: cocos2d: compiled with Profiling Support: NO
+QUICKCPP LOG: Loading app...
+Creating default font
+COCOS2DX LOG: cocos2d: padding: 1,1,1,1
+COCOS2DX LOG: cocos2d: padding: 1,1,1,1
+Moving to game screen
+COCOS2DX LOG: cocos2d: CCTextureCache: texture: textures/blockBattleBG.jpg
+COCOS2DX LOG: cocos2d: CCTextureCache: texture: fonts/Default_0.png
+COCOS2DX LOG: cocos2d: CCTextureCache: texture: textures/player.png
+COCOS2DX LOG: cocos2d: CCTextureCache: texture: textures/alien.png
+COCOS2DX LOG: cocos2d: CCTextureCache: texture: textures/restartButton.png
+COCOS2DX LOG: cocos2d: CCTextureCache: texture: textures/background.jpg
+COCOS2DX LOG: cocos2d: CCTextureCache: texture: textures/gameLogo.png
+COCOS2DX LOG: cocos2d: CCTextureCache: texture: textures/startButton.png
+COCOS2DX LOG: cocos2d: CCSpriteBatchNode: resizing TextureAtlas capacity from [8] to [12].
+27/08/14 19:14:11.135: [0xfa0] IW_GL: Leaked Program with handle 2
+27/08/14 19:14:11.139: [0xfa0] IW_GL: Leaked Program with handle 5
+27/08/14 19:14:11.142: [0xfa0] IW_GL: Leaked Texture with handle 1
+27/08/14 19:14:11.145: [0xfa0] IW_GL: Leaked Texture with handle 2
+27/08/14 19:14:11.148: [0xfa0] IW_GL: Leaked Texture with handle 3
+27/08/14 19:14:11.151: [0xfa0] IW_GL: Leaked Texture with handle 4
+27/08/14 19:14:11.154: [0xfa0] IW_GL: Leaked Texture with handle 5
+27/08/14 19:14:11.157: [0xfa0] IW_GL: Leaked Texture with handle 6
+27/08/14 19:14:11.160: [0xfa0] IW_GL: Leaked Texture with handle 7
+27/08/14 19:14:11.163: [0xfa0] IW_GL: Leaked Texture with handle 8
+27/08/14 19:14:11.166: [0xfa0] IW_GL: Leaked Texture with handle 9
+27/08/14 19:14:11.169: [0xfa0] IW_GL: Leaked VBO with handle 1
+27/08/14 19:14:11.172: [0xfa0] IW_GL: Leaked VBO with handle 2
+27/08/14 19:14:11.175: [0xfa0] IW_GL: Leaked VBO with handle 3
+27/08/14 19:14:11.177: [0xfa0] IW_GL: Leaked VBO with handle 4
+27/08/14 19:14:11.180: [0xfa0] IW_GL: Leaked VBO with handle 5
+27/08/14 19:14:11.183: [0xfa0] IW_GL: Leaked VBO with handle 6
+27/08/14 19:14:11.186: [0xfa0] IW_GL: Leaked VBO with handle 7
+27/08/14 19:14:11.188: [0xfa0] IW_GL: Leaked VBO with handle 8
+27/08/14 19:14:11.191: [0xfa0] IW_GL: Terminating EGL...
+27/08/14 19:14:11.204: [0xfa0] IW_GL: Terminating EGL... Done
+COCOS2DX LOG: cocos2d: deallocing CCDirector 07632708
+COCOS2DX LOG: cocos2d: cocos2d-2.1beta3-x-2.1.0
+COCOS2DX LOG: cocos2d: deallocing CCDirector 07632708
+-- END TRACE --
