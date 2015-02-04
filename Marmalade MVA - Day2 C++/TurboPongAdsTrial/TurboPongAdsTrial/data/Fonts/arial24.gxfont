@@ -1,0 +1,9 @@
+// auto-generated txt file
+// command-line:  -FontName "Arial" -FontSize 24 -CodePage 65001 -ShadowOffset 1 -Colour "ffffff" -ANTIALIAS
+
+CIwGxFont
+{
+	utf8		1
+	image		arial24.tga
+	charmap		"!.,#@ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/"
+}

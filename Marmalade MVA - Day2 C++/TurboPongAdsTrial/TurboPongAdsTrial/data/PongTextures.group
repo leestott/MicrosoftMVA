@@ -1,0 +1,8 @@
+CIwResGroup
+{
+	name	"pongTextures"
+	
+	# textures
+	"textures/gem1.png"			{ formatSW "ARGB_8888"     formatHW   "ARGB_8888"   keepAfterUpload 1 }
+	"textures/paddle.png"		{ formatSW "ARGB_8888"     formatHW   "ARGB_8888"   keepAfterUpload 1 }
+}

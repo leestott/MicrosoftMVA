@@ -1,0 +1,54 @@
+#!/usr/bin/env mkb
+
+defines
+{
+	IW_GXFONT_TTF
+
+    MARMALADE
+
+}
+
+subprojects
+{
+	iw2d
+	iwgxfont
+	iwutil
+	iwssl
+
+	s3eAdDuplex
+	
+	s3eWindowsPhoneStoreBilling
+}
+
+files
+{
+    (source)
+
+	[source]
+    main.cpp
+
+    Scene.cpp
+    SceneManager.cpp
+
+    SceneTitle.cpp
+    SceneIngame.cpp
+
+	playerScores.cpp
+
+	[Header]
+	Scene.h
+    SceneManager.h
+
+	SceneTitle.h
+    SceneIngame.h
+
+	playerScores.h
+}
+
+assets
+{
+    (data-ram\data-gles1)
+	'pongresources.group.bin'
+	'pongtextures.group.bin'
+	'pongfonts.group.bin'	
+}

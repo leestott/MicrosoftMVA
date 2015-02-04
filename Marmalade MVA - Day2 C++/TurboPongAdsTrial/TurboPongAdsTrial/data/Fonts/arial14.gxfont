@@ -1,0 +1,9 @@
+// auto-generated txt file
+// command-line:  -FontName "Arial" -FontSize 14 -CodePage 65001 -ShadowOffset 1 -Colour "ffffff"
+
+CIwGxFont
+{
+	utf8		1
+	image		arial14.tga
+	charmap		" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ"
+}

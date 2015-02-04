@@ -1,0 +1,46 @@
+CIwResGroup
+{
+	name FontTTF
+
+	CIwGxFont
+	{
+		name "Serif_6"
+
+		ttf ".\Fonts\serif.ttf"
+		ttfPointSize 6
+	}
+
+	CIwGxFont
+	{
+		name "Serif_8"
+
+		ttf ".\Fonts\serif.ttf"
+		ttfPointSize 8
+	}
+
+	CIwGxFont
+	{
+		name "Serif_12"
+
+		ttf ".\Fonts\serif.ttf"
+		ttfPointSize 12
+	}
+
+	CIwGxFont
+	{
+		name "Serif_16"
+
+		ttf ".\Fonts\serif.ttf"
+		ttfPointSize 16
+	}
+
+	CIwGxFont
+	{
+		name "Serif_24"
+
+		ttf ".\Fonts\serif.ttf"
+		ttfPointSize 24
+	}
+}
+
+

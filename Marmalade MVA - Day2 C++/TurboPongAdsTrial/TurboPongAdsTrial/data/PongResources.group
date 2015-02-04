@@ -1,0 +1,8 @@
+CIwResGroup
+{
+	name	"PongResGroup"
+
+	# child group
+	"PongFonts.group"
+	"PongTextures.group"
+}
